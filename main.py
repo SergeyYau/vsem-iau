@@ -5,13 +5,13 @@ def clck():
     global c
     if var1.get() == 3:
         c += 1
-    if var2.get() == 1:
+    if var2.get() == 4:
         c += 1
-    if var3.get() == 2:
+    if var3.get() == 8:
         c += 1
-    if var4.get() == 2:
+    if var4.get() == 11:
         c += 1
-    if var5.get() == 3:
+    if var5.get() == 15:
         c += 1
     showinfo(title='Результат', message=f'Ваш результат {c} из 5!')
     c = 0
